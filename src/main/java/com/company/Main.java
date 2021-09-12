@@ -18,7 +18,7 @@ public class Main {
 	// write your code here
         Scanner scan = new Scanner(System.in);
         System.out.printf("Enter a 1 if you are a male or a 2 if you are a female: ");
-        int gender = scan.nextInt();
+        int gender = scan.nextInt();                                                        //must be an int
         System.out.printf("How many ounces of alcohol did you have? ");
         int ounces = scan.nextInt();
         System.out.printf("What is your weight, in pounds? ");
