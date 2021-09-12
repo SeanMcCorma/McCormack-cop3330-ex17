@@ -18,13 +18,13 @@ public class Main {
 	// write your code here
         Scanner scan = new Scanner(System.in);
         System.out.printf("Enter a 1 if you are a male or a 2 if you are a female: ");
-        int gender = Integer.parseInt(scan.nextLine());
+        int gender = scan.nextInt();
         System.out.printf("How many ounces of alcohol did you have? ");
-        int ounces = Integer.parseInt(scan.nextLine());
+        int ounces = scan.nextInt();
         System.out.printf("What is your weight, in pounds? ");
-        int weight = Integer.parseInt(scan.nextLine());
+        int weight = scan.nextInt();
         System.out.printf("How many hours has it been since your last drink? ");
-        int hours = Integer.parseInt(scan.nextLine());
+        int hours = scan.nextInt();
         double ratio;
         if(gender ==1){
             ratio = 0.73;
